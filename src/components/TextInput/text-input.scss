@@ -1,0 +1,19 @@
+input {
+    color: #082f37;
+    &::placeholder {
+        color: #a1a1a1;
+        line-height: 1.5em;
+        font-size: 1em;
+        font-weight: 500;
+    }
+    &:focus {
+        outline: none;
+        color: #082f37;
+        &::placeholder {
+            color: #082f37;
+        }
+        &::-webkit-input-placeholder {
+            color: #082f37;
+        }
+    }
+}
